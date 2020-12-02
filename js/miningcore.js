@@ -7,9 +7,9 @@
 // Current running domain url will be read and used.
 // Change the WebURL, API and/or stratumAddress to your own site if this is different to the current website domain.
 // You can check this in the browser development view F12 - Console 
-var WebURL         = window.location.protocol + "//" + window.location.hostname + "/";  // Website URL is:  https://domain.com/
-var API            = WebURL + "api/";   												// API address is:  https://domain.com/api/
-var stratumAddress = window.location.hostname;           							    // Stratum address is:  domain.com
+var WebURL         = window.location.protocol + "//" + window.location.hostname + ""; 
+var API            = WebURL + ":4000/api/";                                                   
+var stratumAddress = window.location.hostname;
 //
 // --------------------------------------------------------------------------------------------
 
